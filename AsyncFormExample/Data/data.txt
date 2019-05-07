@@ -1,0 +1,30 @@
+private int CountCharacters()
+        {
+            int count = 0;
+            using(StreamReader reader = new StreamReader(""))
+            {
+                string content = reader.ReadToEnd();
+                count = content.Length;
+                Thread.Sleep(5000);
+            }
+            return count;
+        }
+
+        private void btnProccessFile_Click(object sender, EventArgs e)
+        {
+            lblCount.Text = "";
+            lblCount.Text = "Dosya Isleniyor. Lütfen Bekleyiniz...";
+            int count = CountCharacters();
+            lblCount.Text = "Dosyadaki Karakter Sayisi: " + count.ToString();
+        }
+
+        private async void btnProccessFileAsync_Click(object sender, EventArgs e)
+        {
+            lblCount.Text = "";
+            Task<int> task = new Task<int>(CountCharacters);
+            task.Start();
+
+            lblCount.Text = "Dosya Isleniyor. Lütfen Bekleyiniz...";
+            int count = await task;
+            lblCount.Text = "Dosyadaki Karakter Sayisi: " + count.ToString();
+        }

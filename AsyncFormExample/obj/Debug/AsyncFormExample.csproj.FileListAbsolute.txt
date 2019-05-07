@@ -1,0 +1,10 @@
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\bin\Debug\AsyncFormExample.exe.config
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\bin\Debug\AsyncFormExample.exe
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\bin\Debug\AsyncFormExample.pdb
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.csprojAssemblyReference.cache
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.Form1.resources
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.Properties.Resources.resources
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.csproj.GenerateResource.cache
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.csproj.CoreCompileInputs.cache
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.exe
+C:\Users\MERT\source\repos\AsyncFormExample\AsyncFormExample\obj\Debug\AsyncFormExample.pdb
